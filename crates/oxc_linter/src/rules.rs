@@ -173,6 +173,7 @@ pub(crate) mod eslint {
     pub mod no_unused_private_class_members;
     pub mod no_unused_vars;
     pub mod no_use_before_define;
+    pub mod no_useless_assignment;
     pub mod no_useless_backreference;
     pub mod no_useless_call;
     pub mod no_useless_catch;
@@ -186,6 +187,7 @@ pub(crate) mod eslint {
     pub mod no_void;
     pub mod no_warning_comments;
     pub mod no_with;
+    pub mod object_shorthand;
     pub mod operator_assignment;
     pub mod prefer_const;
     pub mod prefer_destructuring;
@@ -709,6 +711,7 @@ pub(crate) mod vitest {
     pub mod no_conditional_tests;
     pub mod no_import_node_test;
     pub mod no_importing_vitest_globals;
+    pub mod prefer_called_exactly_once_with;
     pub mod prefer_called_once;
     pub mod prefer_called_times;
     pub mod prefer_describe_function_title;
@@ -718,7 +721,10 @@ pub(crate) mod vitest {
     pub mod prefer_to_be_falsy;
     pub mod prefer_to_be_object;
     pub mod prefer_to_be_truthy;
+    pub mod require_awaited_expect_poll;
     pub mod require_local_test_context_for_concurrent_snapshots;
+    pub mod require_mock_type_parameters;
+    pub mod require_test_timeout;
     pub mod warn_todo;
 }
 
